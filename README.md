@@ -1,6 +1,5 @@
 # Satellite-based monitoring of the world's largest terrestrial mammal migration using deep learning
-This repository contains the neural network model (UNet) and other essential codes for detecting wildebeest and zebras in Serengeti-Mara ecosystem. 
-The code was written by Zijing Wu. Please contact her at zijingwu97@outlook.com if you have any questions.
+This repository contains the neural network model (UNet) pipeline and other essential codes for detecting wildebeest and zebras in Serengeti-Mara ecosystem. Please feel free to contact me at zijingwu97@outlook.com if you have any questions.
 
 ## Setup and Installation
 The most easy way to test and use this code is to upload the files to Google Drive and open the notebooks with Google Colaboratory.
