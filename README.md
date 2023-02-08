@@ -9,36 +9,39 @@ Alternatively, you can install the required packages (see requirements.txt) on y
 ### core: 
 the necessary modules to run the code.
 
-#### SampleData: 
+### SampleData: 
 the sample dataset required to test the code.
-##### SampleData/1_Data_preparation: 
+#### SampleData/1_Data_preparation: 
 sample dataset for data preparation.
+#### SampleData/data_2009Aug: 
+a sample training/test dataset of year 2009 for model training/testing.
 ##### SampleData/data_2009Aug/3_Train_test: 
 a sample training and test dataset
 ##### SampleData/data_2009Aug/classify: 
 a sample satellite image
 
-#### tmp: 
+### tmp: 
 the folder to save temporary weight files while running the code. The pretrained weights for wildebeest detection are also stored here.
-##### tmp/checkpoint: 
+#### tmp/checkpoint: 
 the folder to save weight files that are generated during model training.
-##### tmp/logs: 
+#### tmp/logs: 
 the folder to save the training records for the use of tensorboard.
-##### tmp/parameter_tuning: 
+#### tmp/parameter_tuning: 
 the folder to save the weights for parameter tuning.
-##### tmp/pretrained_weights: 
+#### tmp/pretrained_weights: 
 the pretrained weights for wildebeest detection.
 
-#### 1_Preprocessing_AOI_to_Mask.ipynb: 
+### 1_Preprocessing_AOI_to_Mask.ipynb: 
 the notebook for preprocessing the data.
 
-#### 2_Wildebeest_detection_using_UNet.ipynb: 
+### 2_Wildebeest_detection_using_UNet.ipynb: 
 the notebook for model training.
 
-#### 3_Postprocessing_ wildebeest_counting.ipynb: 
+### 3_Postprocessing_ wildebeest_counting.ipynb: 
 the notebook for detecting and counting the wildebeest on the image with the trained model.
 
-#### requirements.txt: required libraries and packages to run the notebooks.
+### requirements.txt: 
+required libraries and packages to run the notebooks.
 
 ## Steps below to run the code
 
