@@ -26,8 +26,8 @@ the folder to save temporary weight files while running the code.
 the folder to save weight files that are generated during model training.
 #### tmp/logs: 
 the folder to save the training records for the use of tensorboard.
-#### tmp/parameter_tuning: 
-the folder to save the weights for parameter tuning.
+#### tmp/sensitivity_analysis: 
+the folder to save the weights for sensitivity analysis.
 #### tmp/pretrained_weights: 
 the pretrained weights for wildebeest detection. The weights are not stored here because of file size limit. Please contact zijingwu97@outlook.com for data request.
 
