@@ -9,7 +9,7 @@ import rasterio             # Reproject raster samples
 from rasterio import windows
 import fiona 
 import imageio
-import gdal
+from osgeo import gdal
 
 from shapely.geometry import Point, MultiPoint
 from shapely.geometry import mapping, shape
@@ -27,7 +27,7 @@ epsilon = 1e-07
 #Now you have Ytest (true labels array), Ypredict (prediction array), meta_list (raster with crs). All are ordered.
 # Next: Ytest -> points; Ypredict -> points
 
-SEARCH_DISTANCE = 0.7
+SEARCH_DISTANCE = 0.72
 
 def ImageToPoints(image, mask, animal_size = 9):
   # find the contours of the image segments

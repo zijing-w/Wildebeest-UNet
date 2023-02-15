@@ -6,7 +6,7 @@
 
 import numpy as np
 import os
-import gdal
+from osgeo import gdal
 import rasterio
 from rasterio import windows
 from rasterio.windows import Window
