@@ -1,6 +1,8 @@
 # Deep learning enables satellite-based monitoring of large populations of terrestrial mammals across heterogeneous landscapes
 This repository contains the neural network model (UNet) pipeline and other essential codes for detecting wildebeest and zebras in Serengeti-Mara ecosystem from very-high-resolution satellite imagery. Please feel free to contact me at zijingwu97@outlook.com if you have any questions.
 
+Link to the paper: https://www.nature.com/articles/s41467-023-38901-y or https://rdcu.be/dc8bU
+
 ## Setup and Installation
 The most easy way to test and use this code is to upload all the files to Google Drive and open the notebooks with Google Colaboratory (https://colab.research.google.com/).
 Alternatively, you can install the required packages (see requirements.txt) on your computer and open the notebooks with Jupyter Notebook.
